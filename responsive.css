@@ -1,0 +1,52 @@
+@media screen and (max-width: 400px) {
+    header {
+      padding: 0.5rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      margin-bottom: 1rem;
+    }
+  
+    main {
+      padding: 1rem;
+    }
+  
+    .hidden-gem {
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+    }
+  
+    footer {
+      padding: 0.5rem;
+    }
+  
+    form {
+      flex-direction: column;
+    }
+  
+    input[type="email"] {
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+  
+    button[type="submit"] {
+      width: 100%;
+    }
+  
+    .review-card {
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+    }
+  
+    .add-review {
+      padding: 1rem;
+      margin-top: 1rem;
+    }
+  
+    textarea {
+      width: 100%;
+      height: 80px;
+    }
+}
+  

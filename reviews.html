@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews and Comments</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="info.html">Hidden Gems Details</a></li>
+        <li><a href="reviews.html">Reviews and Comments</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <h1>Your Personal Website</h1>
+    <p>Explore the Hidden Gems</p>
+    <img src="logo.png" alt="Website Logo" width="50" height="50">
+  </header>
+
+  <main>
+    <section class="review-cards">
+      <!-- Dynamically generated review cards using JavaScript -->
+    </section>
+
+    <section class="add-review">
+      <h2>Add Your Review</h2>
+      <form id="add-review-form">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="date">Date: </label>
+        <input type="date" id="date" name="date" required><br>
+        <label for="rating">Rating: </label>
+        <select id="rating" name="rating" required>
+          <option value="1">★☆☆☆☆</option>
+          <option value="2">★★☆☆☆</option>
+          <option value="3">★★★☆☆</option>
+          <option value="4">★★★★☆</option>
+          <option value="5">★★★★★</option>
+        </select><br>
+        
+        <label for="review"> Review: </label>
+        <textarea id="review" name="review" required></textarea><br>
+        
+        <button type="submit">Create</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Include common footer content or navigation -->
+  </footer>
+  
+  <script src="main.js"></script>
+  <script src="data.js"></script>
+</body>
+</html>
